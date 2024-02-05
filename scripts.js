@@ -1,3 +1,4 @@
-var myFirstString = "This is a string for JavaScript string functions";
-console.log(myFirstString.substr(0, 4));
 
+
+var someMath ='c' - 5;
+console.log(someMath);
