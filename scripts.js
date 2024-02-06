@@ -1,3 +1,2 @@
-var mValue = 2>='2';
-console.log(mValue)
-console.log(typeof(mValue));
+var mFriends = ["Mary", "Martha", "James", "Lilian"];
+console.log(mFriends[2]);
