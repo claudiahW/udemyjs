@@ -6,10 +6,30 @@ header div{
     position: relative;
     background-color: lightblue;
 }
-button{
+button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 48px;
+}
+
+#main-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.small {
+    font-size: 24px;
+}
+.big {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        display: block;
+}
 }

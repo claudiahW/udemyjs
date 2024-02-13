@@ -1,5 +1,3 @@
-var btn = document.getElementById("btn-click");
+var mainHeading = document.getElementById("main-heading");
 
-btn.onclick = function() {
-   alert("Button Clicked!");
-}
+mainHeading.classList.add('big');
