@@ -1,3 +1,4 @@
-var mainHeading = document.getElementById("main-heading");
-
-mainHeading.classList.add('big');
+document.body.addEventListener('keydown', function(e) {
+    var keyCode = e.keyCode;
+    alert(keyCode + 'A key was clicked');
+});

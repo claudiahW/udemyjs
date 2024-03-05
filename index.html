@@ -5,28 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
     <link rel="stylesheet"  href="styles.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     
 </head>
 <body>
-
-  <nav>
-    <i class="fas fa-bars"></i>
-    <div id="sidebar"
-    class="hide">
-<ul>
-    <li>Home</li>
-    <li>Settings</li>
-    <li>About</li>
-    <li>Contacts</li>
-</ul>
-</div>
-  </nav>
-<div>
-    <h1 id="main-heading"
-    class="small">Add/remove classes
- </h1>
- <button id="btn-click">Click me!!</button>
-</div>
+<header>
+    <form id="login-form">
+        <input type="text" id="username" name="username" placeholder="Username" required />
+        <br>
+        <br>
+        <input type="password" id="password" name="password" placeholder="Password"/>
+        <br>
+        <br>
+        <input type="submit" id="btn-submit" value="Login" />
+    </form>
+</header>
     <script src="scripts.js"></script>
 </body>
 </html>
