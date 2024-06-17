@@ -1,14 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Tailwind Project</title>
-</head>
-<body>
-  <h1 class="border border-red-600">
-    Hello world!
-  </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Tailwind Project</title>
+  </head>
+  <body>
+    <header class="flex justify-between px-3 bg-gray-400 h-[70px]items-center text-white font-medium">
+      <div class="text-lg font-bold">
+        <span class="text-red-700">COLO</span> APP
+      </div>
+      <ul class="menu flex justify-end items-center gap-4">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+
+    <div
+      class="contain flex w-[90%] md:w-[80%] mx-auto justify-between items-center flex-col md:flex-row my-[100px]gap-[50px] "
+    >
+      <div class="container-body w-[80%] md:w-[60%] flex ">
+        <h2 class="text-3xl font-bold">The Heading!</h2>
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perspiciatis totam, corporis dignissimos rerum veritatis quam, sapiente neque ipsam accusantium itaque, quod quasi vel magni fugiat architecto! Dicta, officiis esse!
+        </p>
+      </div>
+      <img 
+        src="https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg"
+        alt=""
+        class="rounded-md"
+      />
+    </div>
+
+
+    <div class="cards flex flex-wrap w-[90%] md:w-[80%] mx-auto gap-[30px] justify-center">
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt="" class="rounded-md"
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+ <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_1280.jpg"
+          alt=""
+        />
+        <h4 class="text-2xl font-bold flex flex-col items-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          officiis!
+        </p>
+      </div>
+    </div>
+    <footer class="text-center my-[50px]">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+    </footer>
+  </body>
 </html>
